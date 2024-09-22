@@ -15,8 +15,8 @@ The quadcopter's state is updated using an Extended Kalman Filter (EKF), which c
 3. **Measurement Update**: Corrects the nominal state estimate using sensor measurements. It calculates the innovation as the difference between predicted and actual measurements. If the innovation is within a specified threshold, it computes the Kalman gain to update the state estimate and error covariance matrix based on the measurement residual and Jacobian. If the innovation exceeds the threshold, the update is rejected.
 
 ### Quadcopter in Action
-![Quadcopter Movement](https://github.com/hardikshukla7/Autonomous-VIO-based-Quadcopter/blob/main/over_under.mp4?raw=true)
-![Quadcopter Movement](https://github.com/hardikshukla7/Autonomous-VIO-based-Quadcopter/blob/main/maze.mp4?raw=true)
+![Over Under Map](https://github.com/hardikshukla7/Autonomous-VIO-based-Quadcopter/blob/main/over_under.mp4?raw=true)
+![Maze Map](https://github.com/hardikshukla7/Autonomous-VIO-based-Quadcopter/blob/main/maze.mp4?raw=true)
 
 ## Getting Started
 

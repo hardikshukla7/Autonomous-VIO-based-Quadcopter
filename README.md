@@ -14,6 +14,11 @@ The quadcopter's state is updated using an Extended Kalman Filter (EKF), which c
 
 3. **Measurement Update**: Corrects the nominal state estimate using sensor measurements. It calculates the innovation as the difference between predicted and actual measurements. If the innovation is within a specified threshold, it computes the Kalman gain to update the state estimate and error covariance matrix based on the measurement residual and Jacobian. If the innovation exceeds the threshold, the update is rejected.
 
+## My Contributions:
+1.	Engineered the autonomy stack for the Crazyflie 2.0 quadcopter, incorporating a non-linear backstepping controller, the A* algorithm for obstacle configuration space, and minimum jerk trajectory planning
+2.  Designed and implemented Visual-Inertial Odometry (VIO) for precise state and position estimation by integrating IMU and camera data across timestamps using an Error State Kalman Filter.
+
+
 ### Quadcopter in Action
 ![Over Under Map](https://github.com/hardikshukla7/Autonomous-VIO-based-Quadcopter/blob/main/over_under.mp4?raw=true)
 ![Maze Map](https://github.com/hardikshukla7/Autonomous-VIO-based-Quadcopter/blob/main/maze.mp4?raw=true)
